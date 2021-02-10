@@ -1,0 +1,34 @@
+{
+  "spec_version"        : "v1.4",
+  "identifier"          : "reDIRECT",
+  "$kref"               : "#/ckan/github/chris42/reDIRECT",
+  "abstract"            : "A revamp of the DIRECT mod which introduces shuttle-derived parts, as well as the Orion spacecraft for KSP",
+  "author"              : "benjee10",
+  "license"             : "restricted",
+  "release_status"      : "stable",
+  "$vref"               : "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/172187-18x-redirect-stockalike-orion-sls-shuttle-derived-launchers-fixes-v0101/",
+    "repository": "https://github.com/chris42/reDIRECT"
+  },
+  "depends": [
+      { "name" : "Benjee10sharedAssets" },
+      { "name" : "ModuleManager" },
+      { "name" : "B9PartSwitch" },
+      { "name" : "CommunityResourcePack" },
+      { "name" : "DeployableEngines" }
+  ],
+  "suggests": [
+      { "name" : "HabTech2" },
+      { "name" : "Shuttle-Orbiter-Construction-Kit" }
+  ],
+  "install" : [
+      { "find" : "reDIRECT",
+        "install_to" : "GameData"
+      }
+  ],
+  "tags": [
+      "crewed",
+      "parts"
+]
+}
